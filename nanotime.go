@@ -1,7 +1,7 @@
 package nanotime
 
 import (
-	_ "unsafe"
+	_ "unsafe" // I need for go:linkname
 )
 
 //go:noescape
